@@ -7,8 +7,7 @@ echo "Enter the second number: "
 read second_number
 
 # Perform arithmetic using $((...))
-result=$((first_number + second_number))
+result=$((first_number - second_number))
 
-echo "Addition is: $result"
 echo "Result is: $result"
 
